@@ -46,6 +46,13 @@ I was able to recreate both logical and conceptual diagrams with Lucid chart
 
 
 
+Conceptual Lucid [ chart on lucid]()
+https://lucid.app/lucidchart/8fd184af-4139-438e-8bba-d948f0c613bc/edit?invitationId=inv_1ae594bf-1b99-4ee5-8beb-f5132d5c81eb&page=0_0#
+
+Logical crudder on lucid [the logical diagram]()
+https://lucid.app/lucidchart/e89bc9ab-ceff-4ef4-bfee-aeeff3b6e231/edit?viewport_loc=-554%2C66%2C2568%2C1238%2C0_0&invitationId=inv_3c49ff84-f20f-47a0-885b-58f34c23d31f
+
+
 
 
 ## Creating Alarms
@@ -82,7 +89,8 @@ aws budgets create-budget \
 
 budget.json and notifications-with-subscribers.json are used to describe the settings.
 
-Here, I’d create an AWS Budget of 6 dollars .
+
+Here, I’d create an AWS Budget of 10 dollars .
 
 Create budget.json
 First, I need to set BudgetName to appear in the console. BudgetType should be COST and BudgetLimit is 50USD.
@@ -91,7 +99,7 @@ First, I need to set BudgetName to appear in the console. BudgetType should be C
  "BudgetName": "my-budget",
  "BudgetType": "COST",
  "BudgetLimit": {
-  "Amount": "6.0",
+  "Amount": "10.0",
   "Unit": "USD"
  },
  "CostTypes": {
@@ -111,3 +119,5 @@ First, I need to set BudgetName to appear in the console. BudgetType should be C
 }
 
  ```
+ ![the budget created](assets/montly%20budget.png)
+ 
