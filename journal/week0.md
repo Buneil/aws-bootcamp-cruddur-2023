@@ -20,13 +20,13 @@ aws --version
 
 The above screenshot tells you that AWS CLI has been successfully installed. Now, let’s configure it. Before starting it, get your AWS access and the secret access keys. If you do not have them, follow these steps:
 
-## Created an admin user and generated Aws Credentials with sekret keys
+## Created an admin user and generated Aws Credentials with secret keys
 Login to your AWS account
 Click on the AWS account name ( dropdown ) on the top right.
 Select My Security Credentials
-Click on the Access keys option. If you already have the Access Key and the Secret access key, then use them. If there is no key, then click on Create New Access Key.
+Click on the Access keys option.  Click on Create New Access Key.
 Copy the given key and paste it in notepad.
-Run bellow comands
+Run below comands
 
 ```
 export AWS_ACCESS_KEY_ID="AKIA6OE6X44K7VUTDQIL"
@@ -38,6 +38,9 @@ export AWS_DEFAULT_REGION="us-east-1"
 ```
 ## Conceptual Diagram in Lucid chart
 I was able to recreate both logical and coceptual diagrams with Lucid chart
+
+![conceptual diagram](assets/crudder%20conceptual.png)
+![Logical diagram](assets/Crudder%20logical%20diagram.png)
 
 https://lucid.app/lucidchart/8fd184af-4139-438e-8bba-d948f0c613bc/edit?view_items=Dk-wECi.nate&invitationId=inv_1ae594bf-1b99-4ee5-8beb-f5132d5c81eb
 Logical Diagram in Lucid chart
