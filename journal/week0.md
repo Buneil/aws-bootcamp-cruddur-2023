@@ -1,5 +1,5 @@
 # Week 0 — Billing and Architecture
-##Installing AWS CLI
+## Installing AWS CLI
 I was able to install Aws Cli on Gitpod by running the  commands 
 
 ```
@@ -16,7 +16,7 @@ aws --version
 
 The above screenshot tells you that AWS CLI has been successfully installed. Now, let’s configure it. Before starting it, get your AWS access and the secret access keys. If you do not have them, follow these steps:
 
-##Created an admin user and generated Aws Credentials with sekret keys
+## Created an admin user and generated Aws Credentials with sekret keys
 Login to your AWS account
 Click on the AWS account name ( dropdown ) on the top right.
 Select My Security Credentials
@@ -41,7 +41,7 @@ https://lucid.app/lucidchart/e89bc9ab-ceff-4ef4-bfee-aeeff3b6e231/edit?viewport_
 
 
 
-##Creating Alarms
+## Creating Alarms
 
 To trigger  an Amazon CloudWatch alarm using the AWS CLI, you have to run the command aws cloudwatch set-alarm-state in your terminal
 Creating an  a billing alarm in Cli you run this command.
@@ -62,7 +62,7 @@ aws cloudwatch put-metric-alarm --cli-input.jason file://aws/jason/alarm-config.
 
 ````
 
-##How to create a budget
+## How to create a budget
 
 According to the example of cli document, the command would be like this.
 ```
