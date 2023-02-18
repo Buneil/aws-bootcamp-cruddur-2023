@@ -16,6 +16,7 @@ First, let’s see how to check whether AWS CLI has been successfully installed 
 ```
 aws --version
 ````
+![Installing Aws CLI](assets/aws%20version.png)
 
 The above screenshot tells you that AWS CLI has been successfully installed. Now, let’s configure it. Before starting it, get your AWS access and the secret access keys. If you do not have them, follow these steps:
 
