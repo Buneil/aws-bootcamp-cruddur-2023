@@ -35,16 +35,14 @@ export AWS_DEFAULT_REGION="us-east-1"
 
 ```
 
-```
+
 ## Conceptual Diagram in Lucid chart
+
 I was able to recreate both logical and coceptual diagrams with Lucid chart
 
-![conceptual diagram](assets/crudder%20conceptual.png)
-![Logical diagram](assets/Crudder%20logical%20diagram.png)
+![Designed a conceptual crudder design](assets/crudder%20conceptual.png)
 
-https://lucid.app/lucidchart/8fd184af-4139-438e-8bba-d948f0c613bc/edit?view_items=Dk-wECi.nate&invitationId=inv_1ae594bf-1b99-4ee5-8beb-f5132d5c81eb
-Logical Diagram in Lucid chart
-https://lucid.app/lucidchart/e89bc9ab-ceff-4ef4-bfee-aeeff3b6e231/edit?viewport_loc=-554%2C66%2C2568%2C1238%2C0_0&invitationId=inv_3c49ff84-f20f-47a0-885b-58f34c23d31f
+
 
 
 
