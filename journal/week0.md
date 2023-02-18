@@ -7,12 +7,15 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 ```
+
 After installing AWS CLI, you will have to configure it to use it. To configure it, you will have to provide access keys and the region.
 
 First, let’s see how to check whether AWS CLI has been successfully installed in your system. For that, just type in the following command in your command prompt:
+
+
 ```
 aws --version
-
+````
 
 The above screenshot tells you that AWS CLI has been successfully installed. Now, let’s configure it. Before starting it, get your AWS access and the secret access keys. If you do not have them, follow these steps:
 
