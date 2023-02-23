@@ -1,10 +1,10 @@
 from datetime import datetime, timedelta, timezone
-class HomeActivities:
+class NotificationActivities:
   def run():
     now = datetime.now(timezone.utc).astimezone()
     results = [{
       'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
-      'handle':  'Wanyama KIhoro',
+      'handle':  'Wanyama Kihoro',
       'message': 'Cloud is quite frustrating and hard!',
       'created_at': (now - timedelta(days=2)).isoformat(),
       'expires_at': (now + timedelta(days=5)).isoformat(),
