@@ -1,6 +1,6 @@
 # Week 1 — App Containerization
 
-This week we were introduced to docker, we created dockerfiles  containing various instructions and confugurations
+This week we were introduced to docker, we created dockerfiles  containing various instructions and configurations
 learnt various commands i.e
 
 Docker ps-existing containers
@@ -30,7 +30,7 @@ An  example of running a docker to check existing containers
 
 ## Frontend Docker images
 
-  I had an error on notifications tab and it returted an error, 
+  I had an error on notifications tab when i refreshed the browser on port 4567 it returted an error, 
 
 
 ![](assets/assertionerror1.png)
@@ -46,7 +46,7 @@ An  example of running a docker to check existing containers
   ![](assets/line70.png)
 
 
-I was able to fix it with help of the group and the final image is below
+I was able to fix it with help of the group members who are very supportive  and the final image is below
 
 ![](assets/notificatios1.png)
 
