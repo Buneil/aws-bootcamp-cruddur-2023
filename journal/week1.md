@@ -79,11 +79,18 @@ The backend looks like this
  Client connection through postgress was succesful
  
  
- 
- ![](assets/client connection db1.png)
- 
+ ![](assets/databaseconnecton1.png)
  
  
- connceting via database connection 
  
- ![](assets/database connecton1.png)
+ 
+ connecting via database connection 
+ 
+ 
+ 
+![](assets/clientconnectiondb1.png)
+
+
+#  Homework
+
+
