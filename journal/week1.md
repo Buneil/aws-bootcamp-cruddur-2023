@@ -19,38 +19,46 @@ docker start-start a  container.
 
 ## Backend, frontend, postgress and dynamo db containers
 
-An  example of running a docker to check exisisting containers
+An  example of running a docker to check existing containers
 
 
 
-![](assets/backend-front-end-postgress-dynamo db1.png)
+![](assets/docker1.png)
 
 
 
 
 ## Frontend Docker images
 
-I had an error on notifications tab and it returted an error, 
+  I had an error on notifications tab and it returted an error, 
+
+
+![](assets/assertionerror1.png)
 
 
 
 
 
-![](assets/assertion error1.png)
+   It turns out i had copied home directory and didn't change the variables on notifications
 
 
 
-
-IT turns out i had copied home directory and didn't change the variables on notifications
-
-
-
-![](assets/line70.png)
+  ![](assets/line70.png)
 
 
 I was able to fix it with help of the group and the final image is below
 
 ![](assets/notificatios1.png)
+
+
+
+The backend looks like this
+
+
+
+
+
+![](assets/backend.home1.png)
 
 ##postgres
 
@@ -65,4 +73,17 @@ I was able to fix it with help of the group and the final image is below
 
 
 
- **Connecting to dynamodb **
+ ## Connecting to dynamodb 
+ 
+ 
+ Client connection through postgress was succesful
+ 
+ 
+ 
+ ![](assets/client connection db1.png)
+ 
+ 
+ 
+ connceting via database connection 
+ 
+ ![](assets/database connecton1.png)
