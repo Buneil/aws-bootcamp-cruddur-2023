@@ -17,8 +17,7 @@ tasks:
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
-
- ports:
+ports:
   - name: frontend
     port: 3000
     onOpen: open-browser
