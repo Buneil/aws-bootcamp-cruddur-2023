@@ -13,7 +13,6 @@ class UserActivities:
 
     now = datetime.now(timezone.utc).astimezone()
     
-
     if user_handle == None or len(user_handle) < 1:
       model['errors'] = ['blank_user_handle']
     else:
@@ -26,12 +25,13 @@ class UserActivities:
         'expires_at': (now + timedelta(days=31)).isoformat()
       }]
       model['data'] = results
-    subsegment = xray_recorder.begin_subsegment(mock-data)
+    subsegment = xray_recorder.begin_subsegment('mock-data')
         #xray-----
     dict = {
       "now": now.isoformat(),
       "result-size":len(model['data'])
     }
     
-     subsegment.put_metadata('key', dict, 'namespace')
+    subsegment.put_metadata('key', dict, 'namespace')
+    
     return model
